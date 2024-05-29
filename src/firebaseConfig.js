@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// Your web app's Firebase configuration
+// Web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyAQu6mgVPLNwUPjYUZhC68TYOZo8NcrEvw",
     authDomain: "nevins-fitness-forge-b311f.firebaseapp.com",

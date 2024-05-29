@@ -146,12 +146,11 @@ body {
   }
   
   .chart-container canvas {
-    min-width: 600px; /* Adjust width as necessary */
+    min-width: 600px;
   }
 
-  /* Add this to your existing CSS file */
 .background {
-  background-image: url('/Users/nevin/nevins-fitness-forge/src/components/background.jpg'); /* Update this path to your actual image path */
+  background-image: url('./components/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

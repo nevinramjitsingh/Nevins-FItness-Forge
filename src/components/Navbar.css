@@ -1,0 +1,53 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(12,21,25,255);
+    color: white;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+  }
+  
+  .navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-button,.logout-button {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Poppins";
+    transition: background-color 0.3s;
+    width: 100px;
+    box-sizing: border-box;
+    height: 40px;
+    margin: 5px;
+  }
+  
+  .nav-button:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .logout-button {
+    width: 100px;
+  }
+
+  .home-button {
+    padding: 10px;
+  }
+
+  .home-button:hover {
+    text-decoration: none;
+  }
